@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body>div>img {
+    border-radius: 10px;
+
+}
+
+body>div {
+    padding: 16px;
+    background-color: #fff;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-radius: 20px;
+}
+
+body>div>div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    margin: 24px;
+}
+
+.primaryText {
+    color: #1F314F;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.secondaryText {
+    color: #68778D;
+    font-family: "Outfit", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
