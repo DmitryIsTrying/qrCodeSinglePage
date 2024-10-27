@@ -35,7 +35,7 @@ body>div>div {
     flex-direction: column;
     text-align: center;
     gap: 16px;
-    margin: 24px;
+    margin: 24px 16px;
 }
 
 .primaryText {
